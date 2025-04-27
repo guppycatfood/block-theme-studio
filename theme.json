@@ -1,20 +1,251 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "custom-white"
+				},
+				{
+					"color": "#f6f6f6",
+					"name": "Gray More Light",
+					"slug": "custom-gray-more-light"
+				},
+				{
+					"color": "#e8e8e8",
+					"name": "Gray Light",
+					"slug": "custom-gray-light"
+				},
+				{
+					"color": "#dcdcdc",
+					"name": "Gray",
+					"slug": "custom-gray"
+				},
+				{
+					"color": "#969696",
+					"name": "Gray Dark",
+					"slug": "custom-gray-dark"
+				},
+				{
+					"color": "#3f3d56",
+					"name": "Black",
+					"slug": "custom-black"
+				},
+				{
+					"color": "#fffacf",
+					"name": "Yellow Light",
+					"slug": "custom-yellow-light"
+				},
+				{
+					"color": "#ffed8c",
+					"name": "Yellow",
+					"slug": "custom-yellow"
+				},
+				{
+					"color": "#ffc8c7",
+					"name": "Pink Light",
+					"slug": "custom-pink-light"
+				},
+				{
+					"color": "#f1acac",
+					"name": "Pink",
+					"slug": "custom-pink"
+				},
+				{
+					"color": "#ee6284",
+					"name": "Red",
+					"slug": "custom-red"
+				},
+				{
+					"color": "#e02d58",
+					"name": "Red Dark",
+					"slug": "custom-red-dark"
+				},
+				{
+					"color": "#ffe2c0",
+					"name": "Orange Light",
+					"slug": "custom-orange-light"
+				},
+				{
+					"color": "#ff8616",
+					"name": "Orange",
+					"slug": "custom-orange"
+				},
+				{
+					"color": "#a5df97",
+					"name": "Green Light",
+					"slug": "custom-green-light"
+				},
+				{
+					"color": "#4cd0a1",
+					"name": "Green",
+					"slug": "custom-green"
+				},
+				{
+					"color": "#8dc8e8",
+					"name": "Blue Light",
+					"slug": "custom-blue-light"
+				},
+				{
+					"color": "#5b9cc0",
+					"name": "Blue",
+					"slug": "custom-blue"
+				},
+				{
+					"color": "#b386d7",
+					"name": "Purple",
+					"slug": "custom-purple"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
-			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
 		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans JP\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto-sans-jp/noto-sans-jp-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans JP\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/noto-sans-jp/noto-sans-jp-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans JP\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto-sans-jp/noto-sans-jp-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans JP\", sans-serif",
+					"name": "Noto Sans JP",
+					"slug": "noto-sans-jp"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Barlow Semi Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/barlow-semi-condensed/barlow-semi-condensed-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Barlow Semi Condensed\", sans-serif",
+					"name": "Barlow Semi Condensed",
+					"slug": "barlow-semi-condensed"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "56px",
+						"min": "40px"
+					},
+					"name": "Extra Extra Large",
+					"size": "16px",
+					"slug": "extra-extra-large"
+				},
+				{
+					"fluid": {
+						"max": "32px",
+						"min": "28px"
+					},
+					"name": "Extra Large",
+					"size": "16px",
+					"slug": "extra-lage"
+				},
+				{
+					"fluid": {
+						"max": "24px",
+						"min": "20px"
+					},
+					"name": "Large",
+					"size": "16px",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "20px",
+						"min": "18px"
+					},
+					"name": "Semi Large",
+					"size": "16px",
+					"slug": "semi-large"
+				},
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "16px",
+					"slug": "midium"
+				},
+				{
+					"name": "Small",
+					"size": "13px",
+					"slug": "small"
+				},
+				{
+					"name": "Extra Small",
+					"size": "11px",
+					"slug": "extra-small"
 				}
 			]
 		},
@@ -30,5 +261,6 @@
 			"name": "footer"
 		}
 	],
-	"version": 3
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }

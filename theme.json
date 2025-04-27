@@ -2,8 +2,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "980px",
+			"wideSize": "1180px"
 		},
 		"shadow": {
 			"presets": [
@@ -34,6 +34,11 @@
 			]
 		},
 		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "0px"
+		}
 	},
 	"templateParts": [
 		{

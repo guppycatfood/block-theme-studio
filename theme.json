@@ -2,6 +2,7 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+            "defaultPalette": false,
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -105,6 +106,7 @@
 			"wideSize": "1180px"
 		},
 		"shadow": {
+            "defaultPresets": false,
 			"presets": [
 				{
 					"name": "shadow",
@@ -121,9 +123,17 @@
 				"rem",
 				"vh",
 				"vw"
-			]
+			],
+            "spacingSizes": [
+                {
+                    "slug": "10",
+                    "size": "1rem",
+                    "name": "Small"
+                }
+            ]
 		},
 		"typography": {
+            "defaultFontSizes": false,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -210,7 +220,7 @@
 						"min": "40px"
 					},
 					"name": "Extra Extra Large",
-					"size": "16px",
+					"size": "56px",
 					"slug": "extra-extra-large"
 				},
 				{
@@ -219,7 +229,7 @@
 						"min": "28px"
 					},
 					"name": "Extra Large",
-					"size": "16px",
+					"size": "32px",
 					"slug": "extra-lage"
 				},
 				{
@@ -228,7 +238,7 @@
 						"min": "20px"
 					},
 					"name": "Large",
-					"size": "16px",
+					"size": "24px",
 					"slug": "large"
 				},
 				{
@@ -237,7 +247,7 @@
 						"min": "18px"
 					},
 					"name": "Semi Large",
-					"size": "16px",
+					"size": "20px",
 					"slug": "semi-large"
 				},
 				{

@@ -123,14 +123,7 @@
 				"rem",
 				"vh",
 				"vw"
-			],
-            "spacingSizes": [
-                {
-                    "slug": "10",
-                    "size": "1rem",
-                    "name": "Small"
-                }
-            ]
+			]
 		},
 		"typography": {
             "defaultFontSizes": false,
